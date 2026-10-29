@@ -1,0 +1,9 @@
+.env
+__pycache__/
+*.pyc
+.pytest_cache/
+data/claimcheck.db
+eval/results/eval.db
+frontend/node_modules/
+frontend/dist/
+.DS_Store

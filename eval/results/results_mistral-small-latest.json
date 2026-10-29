@@ -1,0 +1,429 @@
+[
+  {
+    "id": "velo-commun-ouvert",
+    "expected": [
+      "non_couvert",
+      "incertain"
+    ],
+    "verdict": "non_couvert",
+    "correct": true,
+    "overconfident": false,
+    "retrieval_ok": true,
+    "cited_key": true,
+    "n_cit": 5,
+    "n_unverified": 0,
+    "latency_s": 6.4,
+    "summary": "Votre vélo volé dans le local commun non fermé à clé n'est pas couvert par la garantie vol standard. Une option spécifique 'Vélo Tout Lieu' aurait pu couvrir ce sinistre sous conditions strictes."
+  },
+  {
+    "id": "bougie-jardin",
+    "expected": [
+      "non_couvert"
+    ],
+    "verdict": "non_couvert",
+    "correct": true,
+    "overconfident": false,
+    "retrieval_ok": true,
+    "cited_key": false,
+    "n_cit": 2,
+    "n_unverified": 2,
+    "latency_s": 4.7,
+    "summary": "Le dommage à la table de jardin n'est pas couvert car il résulte de la fonte de la bougie par la chaleur, sans embrasement ni incendie. Les biens à l'extérieur ne sont couverts que contre certains périls spécifiques (incendie, foudre, etc.), et cette situation ne correspond à aucun d'eux."
+  },
+  {
+    "id": "velo-commun-ferme-force",
+    "expected": [
+      "couvert"
+    ],
+    "verdict": "couvert",
+    "correct": true,
+    "overconfident": false,
+    "retrieval_ok": true,
+    "cited_key": true,
+    "n_cit": 6,
+    "n_unverified": 1,
+    "latency_s": 7.9,
+    "summary": "Votre vélo volé dans le local vélos commun de l'immeuble est couvert par la garantie vol, sous réserve des conditions prévues. L'indemnité sera limitée à 1 500 € par sinistre."
+  },
+  {
+    "id": "garage-prive-force",
+    "expected": [
+      "couvert"
+    ],
+    "verdict": "couvert",
+    "correct": true,
+    "overconfident": false,
+    "retrieval_ok": true,
+    "cited_key": true,
+    "n_cit": 4,
+    "n_unverified": 0,
+    "latency_s": 5.5,
+    "summary": "Votre garage privatif est une dépendance couverte par la garantie vol, sous réserve des conditions de fermeture à clé et d'effraction. Les outils volés dans ces conditions sont donc indemnisables, dans la limite de 2 500 € par sinistre."
+  },
+  {
+    "id": "cave-privee-ouverte",
+    "expected": [
+      "non_couvert"
+    ],
+    "verdict": "non_couvert",
+    "correct": true,
+    "overconfident": false,
+    "retrieval_ok": true,
+    "cited_key": true,
+    "n_cit": 4,
+    "n_unverified": 0,
+    "latency_s": 5.6,
+    "summary": "La disparition d'affaires dans votre cave privative n'est pas couverte car le vol n'a pas été commis avec effraction, comme l'exige la garantie vol pour les dépendances privatives. Aucune trace d'effraction n'a été constatée."
+  },
+  {
+    "id": "cambriolage-fenetre",
+    "expected": [
+      "couvert"
+    ],
+    "verdict": "couvert",
+    "correct": true,
+    "overconfident": false,
+    "retrieval_ok": true,
+    "cited_key": true,
+    "n_cit": 5,
+    "n_unverified": 0,
+    "latency_s": 6.5,
+    "summary": "Votre ordinateur portable est couvert contre le vol par effraction dans votre logement. La garantie s'applique car les cambrioleurs se sont introduits par la fenêtre forcée, ce qui constitue une effraction selon la définition du contrat."
+  },
+  {
+    "id": "porte-non-verrouillee",
+    "expected": [
+      "incertain",
+      "couvert"
+    ],
+    "verdict": "non_couvert",
+    "correct": false,
+    "overconfident": false,
+    "retrieval_ok": true,
+    "cited_key": true,
+    "n_cit": 4,
+    "n_unverified": 0,
+    "latency_s": 6.2,
+    "summary": "Le vol de votre télévision n'est pas couvert car il a été commis sans effraction ni violence, la porte n'étant pas verrouillée. La garantie vol nécessite une introduction par effraction, escalade, fausses clés, violence ou menace."
+  },
+  {
+    "id": "chaises-jardin-volees",
+    "expected": [
+      "non_couvert"
+    ],
+    "verdict": "non_couvert",
+    "correct": true,
+    "overconfident": false,
+    "retrieval_ok": true,
+    "cited_key": true,
+    "n_cit": 4,
+    "n_unverified": 0,
+    "latency_s": 4.3,
+    "summary": "Votre sinistre n'est pas couvert par le contrat. Les chaises de jardin volées à l'extérieur ne sont pas garanties contre le vol selon les clauses du contrat."
+  },
+  {
+    "id": "tempete-parasol",
+    "expected": [
+      "couvert"
+    ],
+    "verdict": "couvert",
+    "correct": true,
+    "overconfident": false,
+    "retrieval_ok": true,
+    "cited_key": true,
+    "n_cit": 4,
+    "n_unverified": 0,
+    "latency_s": 5.3,
+    "summary": "Votre parasol et votre table de jardin sont couverts par la garantie tempête, car les rafales à 120 km/h dépassent le seuil de 100 km/h requis. Les biens sont considérés comme du mobilier de jardin et sont assurés contre la tempête selon les clauses du contrat."
+  },
+  {
+    "id": "fuite-evier",
+    "expected": [
+      "couvert"
+    ],
+    "verdict": "couvert",
+    "correct": true,
+    "overconfident": false,
+    "retrieval_ok": true,
+    "cited_key": true,
+    "n_cit": 2,
+    "n_unverified": 0,
+    "latency_s": 4.8,
+    "summary": "Le parquet de votre cuisine est couvert pour les dommages causés par la fuite d'eau sous l'évier, car cette situation relève de la garantie 'Dégâts des eaux' (5.1). La franchise de 250 € s'appliquera."
+  },
+  {
+    "id": "condensation",
+    "expected": [
+      "non_couvert"
+    ],
+    "verdict": "non_couvert",
+    "correct": true,
+    "overconfident": false,
+    "retrieval_ok": true,
+    "cited_key": true,
+    "n_cit": 2,
+    "n_unverified": 0,
+    "latency_s": 3.7,
+    "summary": "La moisissure due à la condensation sur les murs de votre salle de bain n'est pas couverte par votre contrat d'assurance, car les dommages causés par la condensation sont explicitement exclus."
+  },
+  {
+    "id": "infiltration-plafond",
+    "expected": [
+      "couvert"
+    ],
+    "verdict": "couvert",
+    "correct": true,
+    "overconfident": false,
+    "retrieval_ok": true,
+    "cited_key": true,
+    "n_cit": 4,
+    "n_unverified": 1,
+    "latency_s": 4.8,
+    "summary": "Le sinistre est couvert par la garantie 'Dégâts des eaux' pour les infiltrations d'eau de pluie par la toiture, à l'exclusion des dommages à la toiture elle-même. Les taches sur le plafond de la chambre sont donc indemnisables."
+  },
+  {
+    "id": "infiltration-toiture",
+    "expected": [
+      "non_couvert"
+    ],
+    "verdict": "incertain",
+    "correct": false,
+    "overconfident": false,
+    "retrieval_ok": true,
+    "cited_key": true,
+    "n_cit": 2,
+    "n_unverified": 1,
+    "latency_s": 5.9,
+    "summary": "L'infiltration d'eau de pluie par la toiture est couverte pour les dommages causés à l'intérieur du bâtiment, mais pas pour la réparation de la toiture elle-même. La prise en charge dépend de la cause de l'infiltration (tempête, usure, défaut d'entretien) et de l'existence d'une option spécifique."
+  },
+  {
+    "id": "cigarette-canape",
+    "expected": [
+      "non_couvert"
+    ],
+    "verdict": "non_couvert",
+    "correct": true,
+    "overconfident": false,
+    "retrieval_ok": true,
+    "cited_key": true,
+    "n_cit": 5,
+    "n_unverified": 0,
+    "latency_s": 5.2,
+    "summary": "Le trou brûlé causé par une cigarette sur votre canapé n'est pas couvert par votre contrat d'assurance, car il s'agit d'un dommage de brûlure sans embrasement ni flammes, exclu par la garantie incendie."
+  },
+  {
+    "id": "feu-poele",
+    "expected": [
+      "couvert"
+    ],
+    "verdict": "couvert",
+    "correct": true,
+    "overconfident": false,
+    "retrieval_ok": true,
+    "cited_key": true,
+    "n_cit": 10,
+    "n_unverified": 0,
+    "latency_s": 7.3,
+    "summary": "Les dommages causés aux placards par l'incendie de la poêle sont couverts par la garantie incendie, sous réserve de la franchise de 250 €. Les placards, en tant que biens meubles à l'intérieur du bâtiment, sont assurés au titre du contenu."
+  },
+  {
+    "id": "fumee-chauffage",
+    "expected": [
+      "couvert"
+    ],
+    "verdict": "couvert",
+    "correct": true,
+    "overconfident": false,
+    "retrieval_ok": true,
+    "cited_key": true,
+    "n_cit": 2,
+    "n_unverified": 0,
+    "latency_s": 3.6,
+    "summary": "Le sinistre est couvert au titre des dommages causés par la fumée résultant du fonctionnement défectueux de votre poêle à bois raccordé à la cheminée. Les murs du salon (bien meuble) sont assurés en tant que contenu."
+  },
+  {
+    "id": "vitre-ballon",
+    "expected": [
+      "couvert"
+    ],
+    "verdict": "couvert",
+    "correct": true,
+    "overconfident": false,
+    "retrieval_ok": true,
+    "cited_key": true,
+    "n_cit": 7,
+    "n_unverified": 0,
+    "latency_s": 5.8,
+    "summary": "La baie vitrée du salon est couverte par la garantie 'Bris de vitrages' du contrat, car elle fait partie du bâtiment assuré. La responsabilité civile du fils est également couverte pour les dommages causés à des tiers."
+  },
+  {
+    "id": "vitre-rayure",
+    "expected": [
+      "non_couvert"
+    ],
+    "verdict": "non_couvert",
+    "correct": true,
+    "overconfident": false,
+    "retrieval_ok": true,
+    "cited_key": true,
+    "n_cit": 2,
+    "n_unverified": 0,
+    "latency_s": 4.3,
+    "summary": "La rayure de la vitre de votre porte-fenêtre n'est pas couverte par votre contrat d'assurance. Seuls les bris accidentels de vitrages sont garantis, à l'exclusion des rayures et écaillements."
+  },
+  {
+    "id": "rc-voisin",
+    "expected": [
+      "couvert"
+    ],
+    "verdict": "couvert",
+    "correct": true,
+    "overconfident": false,
+    "retrieval_ok": true,
+    "cited_key": true,
+    "n_cit": 4,
+    "n_unverified": 1,
+    "latency_s": 6.5,
+    "summary": "Votre responsabilité civile vie privée couvre les dommages causés à un tiers (ici, le voisin) par un ballon, sous réserve que l'incident ne relève pas d'une exclusion (intention, activité professionnelle, etc.). Le montant des dommages sera indemnisé selon les limites du contrat."
+  },
+  {
+    "id": "rc-objet-prete",
+    "expected": [
+      "non_couvert"
+    ],
+    "verdict": "non_couvert",
+    "correct": true,
+    "overconfident": false,
+    "retrieval_ok": true,
+    "cited_key": true,
+    "n_cit": 3,
+    "n_unverified": 0,
+    "latency_s": 4.0,
+    "summary": "Votre responsabilité civile ne couvre pas les dommages causés à un bien dont vous aviez la garde (ici, l'appareil photo prêté par un ami). Cette exclusion est explicitement mentionnée dans le contrat."
+  },
+  {
+    "id": "intentionnel",
+    "expected": [
+      "non_couvert"
+    ],
+    "verdict": "non_couvert",
+    "correct": true,
+    "overconfident": false,
+    "retrieval_ok": true,
+    "cited_key": true,
+    "n_cit": 2,
+    "n_unverified": 0,
+    "latency_s": 3.3,
+    "summary": "La casse volontaire de votre table basse n'est pas couverte par votre assurance, car les dommages intentionnels sont exclus par le contrat. Seuls les dommages accidentels pourraient être pris en charge."
+  },
+  {
+    "id": "usure-canalisation",
+    "expected": [
+      "non_couvert",
+      "incertain"
+    ],
+    "verdict": "non_couvert",
+    "correct": true,
+    "overconfident": false,
+    "retrieval_ok": true,
+    "cited_key": false,
+    "n_cit": 2,
+    "n_unverified": 2,
+    "latency_s": 5.4,
+    "summary": "Le sinistre n'est pas couvert car la fuite de la canalisation résulte d'un défaut d'entretien manifeste, exclu par les clauses du contrat. Les dégâts au mur ne sont donc pas indemnisables."
+  },
+  {
+    "id": "velo-option-ok",
+    "expected": [
+      "couvert"
+    ],
+    "verdict": "couvert",
+    "correct": true,
+    "overconfident": false,
+    "retrieval_ok": true,
+    "cited_key": true,
+    "n_cit": 7,
+    "n_unverified": 0,
+    "latency_s": 6.2,
+    "summary": "Votre vélo électrique est couvert pour le vol en tout lieu grâce à l'option 'Vélo Tout Lieu' souscrite. L'antivol en U sectionné et la facture disponible remplissent les conditions de garantie."
+  },
+  {
+    "id": "velo-option-cable",
+    "expected": [
+      "non_couvert",
+      "incertain"
+    ],
+    "verdict": "non_couvert",
+    "correct": true,
+    "overconfident": false,
+    "retrieval_ok": true,
+    "cited_key": true,
+    "n_cit": 2,
+    "n_unverified": 0,
+    "latency_s": 4.4,
+    "summary": "Le vol de votre vélo n'est pas couvert car l'antivol utilisé (câble non agréé) ne répond pas aux exigences de l'option Vélo Tout Lieu. L'option impose un antivol de type U ou à chaîne agréé, forcé ou sectionné au moment du vol."
+  },
+  {
+    "id": "bijoux-cambriolage",
+    "expected": [
+      "couvert"
+    ],
+    "verdict": "incertain",
+    "correct": false,
+    "overconfident": false,
+    "retrieval_ok": true,
+    "cited_key": true,
+    "n_cit": 8,
+    "n_unverified": 0,
+    "latency_s": 9.9,
+    "summary": "La bague pourrait être couverte si elle était à l'intérieur du bâtiment lors du vol, mais l'indemnisation serait plafonnée à 10 000 €. Le montant exact dépend du niveau de sécurité avant le vol et de la déclaration de la valeur de la bague."
+  },
+  {
+    "id": "tempete-80kmh-en",
+    "expected": [
+      "non_couvert",
+      "incertain"
+    ],
+    "verdict": "non_couvert",
+    "correct": true,
+    "overconfident": false,
+    "retrieval_ok": true,
+    "cited_key": true,
+    "n_cit": 3,
+    "n_unverified": 0,
+    "latency_s": 4.6,
+    "summary": "The damage caused by the 80 km/h wind storm is not covered because the wind speed did not meet the minimum threshold of 100 km/h required for the storm guarantee. Additionally, the tiles are part of the roof, which is not covered under the storm guarantee."
+  },
+  {
+    "id": "declaration-tardive",
+    "expected": [
+      "couvert",
+      "incertain"
+    ],
+    "verdict": "couvert",
+    "correct": true,
+    "overconfident": false,
+    "retrieval_ok": true,
+    "cited_key": true,
+    "n_cit": 6,
+    "n_unverified": 0,
+    "latency_s": 9.0,
+    "summary": "Le cambriolage avec effraction est couvert par la garantie vol, sous réserve de la déclaration dans les délais et des conditions de l'option vol souscrite. La déclaration tardive (3 semaines) peut entraîner une réduction de l'indemnité, mais ne supprime pas la couverture."
+  },
+  {
+    "id": "inondation-riviere",
+    "expected": [
+      "incertain",
+      "non_couvert"
+    ],
+    "verdict": "incertain",
+    "correct": true,
+    "overconfident": false,
+    "retrieval_ok": true,
+    "cited_key": true,
+    "n_cit": 7,
+    "n_unverified": 0,
+    "latency_s": 6.9,
+    "summary": "Le sinistre pourrait être couvert si l'inondation est classée comme catastrophe naturelle, mais cela dépend de l'option souscrite. Sinon, les garanties 'dégâts des eaux' ne couvrent pas les inondations par débordement de rivière."
+  }
+]

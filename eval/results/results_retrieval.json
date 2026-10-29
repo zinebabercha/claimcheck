@@ -1,0 +1,176 @@
+[
+  {
+    "id": "velo-commun-ouvert",
+    "retrieval_ok": true,
+    "missing": [],
+    "n_retrieved": 23
+  },
+  {
+    "id": "bougie-jardin",
+    "retrieval_ok": true,
+    "missing": [],
+    "n_retrieved": 27
+  },
+  {
+    "id": "velo-commun-ferme-force",
+    "retrieval_ok": true,
+    "missing": [],
+    "n_retrieved": 23
+  },
+  {
+    "id": "garage-prive-force",
+    "retrieval_ok": true,
+    "missing": [],
+    "n_retrieved": 21
+  },
+  {
+    "id": "cave-privee-ouverte",
+    "retrieval_ok": true,
+    "missing": [],
+    "n_retrieved": 27
+  },
+  {
+    "id": "cambriolage-fenetre",
+    "retrieval_ok": true,
+    "missing": [],
+    "n_retrieved": 26
+  },
+  {
+    "id": "porte-non-verrouillee",
+    "retrieval_ok": false,
+    "missing": [
+      "7.1"
+    ],
+    "n_retrieved": 21
+  },
+  {
+    "id": "chaises-jardin-volees",
+    "retrieval_ok": true,
+    "missing": [],
+    "n_retrieved": 24
+  },
+  {
+    "id": "tempete-parasol",
+    "retrieval_ok": true,
+    "missing": [],
+    "n_retrieved": 20
+  },
+  {
+    "id": "fuite-evier",
+    "retrieval_ok": true,
+    "missing": [],
+    "n_retrieved": 15
+  },
+  {
+    "id": "condensation",
+    "retrieval_ok": true,
+    "missing": [],
+    "n_retrieved": 25
+  },
+  {
+    "id": "infiltration-plafond",
+    "retrieval_ok": true,
+    "missing": [],
+    "n_retrieved": 26
+  },
+  {
+    "id": "infiltration-toiture",
+    "retrieval_ok": true,
+    "missing": [],
+    "n_retrieved": 25
+  },
+  {
+    "id": "cigarette-canape",
+    "retrieval_ok": true,
+    "missing": [],
+    "n_retrieved": 25
+  },
+  {
+    "id": "feu-poele",
+    "retrieval_ok": true,
+    "missing": [],
+    "n_retrieved": 19
+  },
+  {
+    "id": "fumee-chauffage",
+    "retrieval_ok": true,
+    "missing": [],
+    "n_retrieved": 27
+  },
+  {
+    "id": "vitre-ballon",
+    "retrieval_ok": true,
+    "missing": [],
+    "n_retrieved": 12
+  },
+  {
+    "id": "vitre-rayure",
+    "retrieval_ok": true,
+    "missing": [],
+    "n_retrieved": 15
+  },
+  {
+    "id": "rc-voisin",
+    "retrieval_ok": true,
+    "missing": [],
+    "n_retrieved": 14
+  },
+  {
+    "id": "rc-objet-prete",
+    "retrieval_ok": true,
+    "missing": [],
+    "n_retrieved": 18
+  },
+  {
+    "id": "intentionnel",
+    "retrieval_ok": true,
+    "missing": [],
+    "n_retrieved": 11
+  },
+  {
+    "id": "usure-canalisation",
+    "retrieval_ok": false,
+    "missing": [
+      "5.3"
+    ],
+    "n_retrieved": 22
+  },
+  {
+    "id": "velo-option-ok",
+    "retrieval_ok": true,
+    "missing": [],
+    "n_retrieved": 28
+  },
+  {
+    "id": "velo-option-cable",
+    "retrieval_ok": true,
+    "missing": [],
+    "n_retrieved": 28
+  },
+  {
+    "id": "bijoux-cambriolage",
+    "retrieval_ok": true,
+    "missing": [],
+    "n_retrieved": 27
+  },
+  {
+    "id": "tempete-80kmh-en",
+    "retrieval_ok": false,
+    "missing": [
+      "6.1"
+    ],
+    "n_retrieved": 10
+  },
+  {
+    "id": "declaration-tardive",
+    "retrieval_ok": true,
+    "missing": [],
+    "n_retrieved": 25
+  },
+  {
+    "id": "inondation-riviere",
+    "retrieval_ok": true,
+    "missing": [],
+    "n_retrieved": 10
+  }
+]
